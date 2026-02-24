@@ -121,7 +121,7 @@ if uploaded_file is not None:
     # Download batch results
     csv = batch_data.to_csv(index=False)
     st.download_button("Download Predictions CSV", csv, "batch_predictions.csv", "text/csv")
-'
+
 # ----------------------------
 # Dashboard Insights
 # ----------------------------
